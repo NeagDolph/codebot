@@ -1,0 +1,1 @@
+Set Discord token as TOKEN in .env file
