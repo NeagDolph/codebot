@@ -1,0 +1,28 @@
+{
+  "name": "codebot",
+  "version": "1.0.0",
+  "description": "Set Discord token as TOKEN in .env file",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeagDolph/codebot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeagDolph/codebot/issues"
+  },
+  "homepage": "https://github.com/NeagDolph/codebot#readme",
+  "dependencies": {
+    "bson": "^1.1.5",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.3",
+    "safe-buffer": "^5.2.1"
+  }
+}

@@ -1,5 +1,10 @@
 {
   "dbPath": "/Users/neila/Sync/codebot",
-  "savedEmoji": "783525724832137236",
-  "imageifyEmoji": "783529236736245800"
+  "savedEmoji": "\uD83D\uDCC1",
+  "imageifyEmoji": "\uD83D\uDDBC️️",
+  "successEmoji": "✅",
+  "errorEmoji": "❌",
+  "prefix": "sudo ",
+  "interactDirect": true,
+  "singleBlock": true
 }

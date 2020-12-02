@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3ce4b7b-1706-4867-9811-e98175c765b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1l5GvhINMxcFzylJt2do4ngfXlu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3ce4b7b-1706-4867-9811-e98175c765b2" name="Default Changelist" comment="" />
+      <created>1606879771111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606879771111</updated>
+      <workItem from="1606879772217" duration="14015000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="678" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606887107036">
+      <screen x="71" y="23" width="1721" height="1097" />
+    </state>
+    <state x="678" y="380" key="#com.intellij.fileTypes.FileTypeChooser/71.23.1721.1097@71.23.1721.1097" timestamp="1606887107036" />
+    <state x="701" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606885643355">
+      <screen x="71" y="23" width="1721" height="1097" />
+    </state>
+    <state x="701" y="448" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/71.23.1721.1097@71.23.1721.1097" timestamp="1606885643355" />
+    <state x="607" y="292" width="670" height="676" key="search.everywhere.popup" timestamp="1606895497804">
+      <screen x="71" y="23" width="1721" height="1097" />
+    </state>
+    <state x="607" y="292" width="670" height="676" key="search.everywhere.popup/71.23.1721.1097@71.23.1721.1097" timestamp="1606895497804" />
+  </component>
+</project>
