@@ -1,21 +1,26 @@
-var Discord = require('discord.js');
+const Discord = require('discord.js');
 const MongoClient = require('mongodb').MongoClient;
-var assert = require('assert');
-var config = require("./config.json");
+const config = require("./config.json");
 
-const url = 'mongodb://192.168.1.185:27017';
-let userdata;
+const url = `mongodb://${config.mongo.hostname}:${config.mongo.port}`;
+let db;
 
-MongoClient.connect(url, function(err, client) {
-    assert.equal(null, err);
-    console.log("Connected successfully to server");
+MongoClient.connect(url)
+    .then(client => {;
+        console.log("Connected successfully to server");
+        db = client.db(config.mongo.dbName);
 
-    const db = client.db("codebot");
-    userdata = db.collection("userdata");
+        // client.close();
+    })
+    .catch(err => {
+        console.log("Error connecting to MongoDB", err)
+    })
 
-    client.close();
-});
 
-exports.localUserdata = {}
-exports.users = userdata;
-exports.client = new Discord.Client();
+module.exports = {
+    localUserdata: {},
+    client: new Discord.Client(),
+    getDb() {
+        return db
+    }
+};

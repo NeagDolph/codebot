@@ -1,10 +1,20 @@
 {
-  "dbPath": "/Users/neila/Sync/codebot",
-  "savedEmoji": "\uD83D\uDCC1",
-  "imageifyEmoji": "\uD83D\uDDBC️️",
-  "successEmoji": "✅",
-  "errorEmoji": "❌",
-  "prefix": "sudo ",
-  "interactDirect": true,
-  "singleBlock": true
+  "mongo": {
+    "hostname": "192.168.1.185",
+    "port": 27017,
+    "dbName": "codebot"
+  },
+  "emoji": {
+    "saved": "\uD83D\uDCC1",
+    "imageify": "\uD83D\uDDBC️️",
+    "success": "✅",
+    "error": "❌",
+    "search": "🔍",
+    "right": "▶️",
+    "left": "◀️"
+  },
+  "forcedPrefix": "$",
+  "allowCustomPrefix": true,
+  "dmOnly": true,
+  "saveSingleBlock": true
 }

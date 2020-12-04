@@ -1,12 +1,11 @@
 const utils = require("./utils");
-const users = utils.users;
 
 
 const extractBlocks = (content) => {
     let blocks = content.match(/(```(.|\n)+```)|(`{1,2}(.|\n)+`{1,2})/g)
 
     return blocks.map(block => {
-        if (block.match(/`/g).length >= 6) {
+        if (block.split("`").length - 1 >= 6) {
             return {
                 single: false,
                 content: block.substring(3, block.length - 3)
@@ -22,7 +21,8 @@ const extractBlocks = (content) => {
 
 const getUser = (userid) => {
     return new Promise((res, rej) => {
-        users.findOne({userid}, function(err, item) {
+        let db = utils.getDb();
+        db.collection("userdata").findOne({_id: userid}, function(err, item) {
             if (err) rej(err);
 
             res(item)
